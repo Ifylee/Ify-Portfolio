@@ -1,16 +1,18 @@
+/* variables */
 :root {
-
+    --white-color: white;
+    --bg-color: rgb(40, 40, 61);
 }
 
 body {
     background-color: darkslategrey;
     font-family: 'Times New Roman', Times, serif;
     font-size: ;
-    color: white;
+    color: var(--white-color);
     margin: 0;
     padding: 0;
 }
-
+/* header section */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -18,15 +20,19 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: darkgray;
-    border-bottom: 20px solid rgb(40, 40, 61);
-    border-top: 20px solid rgb(40, 40, 61);
+    border-bottom: 20px solid var(--bg-color);
+    border-top: 20px solid var(--bg-color);
 }
 
 header h1 {
-    color: black;
+    color: rgb(66, 29, 29);
     font-size: 70px;
 }
 
+header span {
+    color: rgb(54, 67, 61);
+}
+/* hearder nav section */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -35,21 +41,26 @@ nav {
     justify-content: space-between;
     padding-right: 20px;
 }
+
+nav a {
+    color: var(--bg-color);
+}
+
 header img {
     width: 300px;
     height: 300px;
     padding: 5px;
-    border: 10px solid rgb(16, 22, 24);
+    border: 10px solid var(--bg-color);
     border-radius: 50%;
     margin: 10px;
 }
-
+/* main section */
 .big-box {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* class id for all my main sections  */
 .small-box {  
     padding: 10px 0;
     margin: 25px 0;
@@ -59,20 +70,16 @@ header img {
     flex-wrap: wrap;
     align-items: stretch;
 }
-
+/* h2 headings */
 .small-box > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid white;
+    border-right: 4px solid var( --white-color);
     line height: 0.9vh;
     font-size: 4vw;
     line-height: 1.1;
 } 
-
-.small-box > div {
-    flex: 0 0 77%;
-}
 
 .small-box p {
     margin-bottom: 20px;
@@ -96,7 +103,7 @@ p {
 }
 
 .sub-container {
-    border: 5px solid white;
+    border: 5px solid var(--white-color);
     display: flex;
     min-height: 150px;
     max-height: 150px;
@@ -109,14 +116,14 @@ p {
     background-color: rgb(132, 156, 132);
     border-color: rgb(126, 126, 135);
 }
-
+/* id section */
 #resume {
  justify-content: flex-start;
  padding-left: 40px;
 }
 
 #resume a {
-   color: white;
+   color: var(--white-color);
    font-size: 1.9em;
   }
 
@@ -128,10 +135,12 @@ p {
 }
     
 #reference a {
-    color: white;
+    color: var( --white-color);
 }
 
+/* footer section */
 footer {
     text-align: center;
     padding-bottom: 25px;
+    border-bottom: 10px solid var(--bg-color);
 }
