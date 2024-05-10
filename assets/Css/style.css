@@ -110,5 +110,28 @@ p {
     border-color: rgb(126, 126, 135);
 }
 
+#resume {
+ justify-content: flex-start;
+ padding-left: 40px;
+}
 
+#resume a {
+   color: white;
+   font-size: 1.9em;
+  }
+
+ #reference {
+    font-size: 1.5em;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
     
+#reference a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 25px;
+}
