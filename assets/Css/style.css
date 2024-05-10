@@ -7,7 +7,6 @@
 body {
     background-color: darkslategrey;
     font-family: 'Times New Roman', Times, serif;
-    font-size: ;
     color: var(--white-color);
     margin: 0;
     padding: 0;
@@ -76,10 +75,8 @@ header img {
     text-align: right;
     padding-right: 15px;
     border-right: 4px solid var( --white-color);
-    line height: 0.9vh;
-    font-size: 4vw;
-    line-height: 1.1;
-} 
+    font-size: 4vw
+}   
 
 .small-box p {
     margin-bottom: 20px;
@@ -93,7 +90,7 @@ p {
     margin-bottom: 20px;
     padding: 20px;
     font-size: 25px;
-    line-height: 3.5vh;
+    line-height: 3.5vh
 }
 
 .container {
