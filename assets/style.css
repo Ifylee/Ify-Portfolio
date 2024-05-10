@@ -112,6 +112,7 @@ p {
     font-size: 2.5em;
     background-color: rgb(132, 156, 132);
     border-color: rgb(126, 126, 135);
+    color: rgb(4, 75, 75);
 }
 /* pseudo-class section */
 .sub-container:hover{
