@@ -5,22 +5,16 @@
 }
 
 .tittle {
-	font-size 72px;
-	background-image: ;
-	
+	font-size: 72px;
 }
-
-
-
-
-
-
 
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
+}
 
 h1,
 h2,
