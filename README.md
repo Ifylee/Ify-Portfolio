@@ -7,6 +7,6 @@ This website is very user accessible on navigating to the various websites and l
 Click the link to view my page:
 https://ifylee.github.io/ify-portfolio/
 
-
-
+![A picture of my portfolio](image-1.png)
+![A picture of my portfolio ctn](image.png)
 
