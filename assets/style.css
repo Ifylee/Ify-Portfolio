@@ -98,7 +98,7 @@ p {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-left: 10px;
 }
 /* class element that applies this css below to any section with a sub-container class */
 .sub-container {
@@ -115,7 +115,8 @@ p {
     background-color: rgb(132, 156, 132);
     border-color: rgb(126, 126, 135);
     color: rgb(4, 75, 75);
-}
+} 
+
 /* pseudo-class section */
 /* Once the cursor hovers over these seleceted elements, the css code on them applies */
 .sub-container:hover{
@@ -132,6 +133,28 @@ header:hover{
         color: rgb(230, 92, 42);
     }
 }
+
+#first:hover{
+    background-color: seagreen;
+    color: var(--white-color);
+    border: 3px solid rgb(212, 214, 57);  
+}
+/* Targeted the added id on first box for styling */
+#first {
+    border: 5px solid var(--white-color);
+    display: flex;
+    min-height: 250px;
+    min-width: 70%;
+    align-items: center;
+    padding: 0 0 20px 0;
+    justify-content: center;
+    margin: 0.5rem;
+    flex-basis: calc(50% - 1em);
+    font-size: 2.5em;
+    background-color: rgb(132, 156, 132);
+    border-color: rgb(126, 126, 135);
+    color: rgb(4, 75, 75);
+} 
 
 #reference a:hover{
     color: greenyellow;
